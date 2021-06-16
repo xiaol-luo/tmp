@@ -4,6 +4,7 @@ SET(group_folder  "examples")
 
 ADD_SUBDIRECTORY(hello_triangle)
 ADD_SUBDIRECTORY(try_shader_s)
+ADD_SUBDIRECTORY(try_texture)
 
 
 

@@ -1,3 +1,8 @@
+/*
+from url:
+https://learnopengl-cn.github.io/01%20Getting%20started/05%20Shaders/
+*/
+
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 

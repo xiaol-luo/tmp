@@ -10,7 +10,6 @@ FileGroupByDir(${PROJECT_SOURCE_DIR} "${all_files}" "")
 
 INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR})
 
-add_compile_options(-DDATA_STRUCT_BUILD_AS_DLL)
 MakeLib(${project_name} "${all_files}" false)
 
 IF (WIN32)
