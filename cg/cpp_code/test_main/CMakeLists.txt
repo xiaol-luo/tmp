@@ -1,4 +1,4 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+
 
 SET(project_name test_main)
 PROJECT(${project_name})

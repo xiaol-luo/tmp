@@ -1,4 +1,4 @@
-﻿CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+﻿
 
 SET(project_name learn_opengl)
 PROJECT(${project_name})

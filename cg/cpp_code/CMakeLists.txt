@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+
 
 INCLUDE(${CMAKE_SOURCE_DIR}/cmake/Utils.cmake)
 
@@ -15,6 +15,7 @@ INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/third_party/learnopengl)
 INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/third_party/glm)
 INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/third_party/glfw-3.3.4/include) 
 INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/third_party/glad/include)
+INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/third_party/assimp/include)
 LINK_DIRECTORIES(${CMAKE_BINARY_DIR})
 LINK_DIRECTORIES(${CMAKE_SOURCE_DIR})
 
@@ -34,6 +35,7 @@ ADD_COMPILE_OPTIONS(/Zc:__cplusplus)
 ADD_SUBDIRECTORY(third_party/glfw-3.3.4)
 ADD_SUBDIRECTORY(third_party/glad)
 ADD_SUBDIRECTORY(third_party/glm)
+ADD_SUBDIRECTORY(third_party/assimp)
 ADD_SUBDIRECTORY(third_party/learnopengl)
 ADD_SUBDIRECTORY(test_main)
 ADD_SUBDIRECTORY(examples)

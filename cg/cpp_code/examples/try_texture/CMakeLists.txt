@@ -1,4 +1,4 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+
 
 SET(project_name try_texture)
 PROJECT(${project_name})
