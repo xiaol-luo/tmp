@@ -7,6 +7,7 @@ ADD_SUBDIRECTORY(try_texture)
 ADD_SUBDIRECTORY(try_camera)
 ADD_SUBDIRECTORY(try_coordinate)
 ADD_SUBDIRECTORY(try_assimp)
+ADD_SUBDIRECTORY(try_frame_buffer)
 
 
 

@@ -6,7 +6,6 @@ https://learnopengl-cn.github.io/01%20Getting%20started/06%20Textures/
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <learnopengl/stb_image.h>
-
 #include <learnopengl/shader_s.h>
 
 #include <iostream>
